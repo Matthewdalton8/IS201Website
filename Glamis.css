@@ -1,0 +1,117 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+}
+
+/* Header styles */
+.masthead {
+    background-image: url('assets/img/Glamis background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 250px 0;
+    height: 300px;
+    position: relative;
+    
+}
+
+.masthead .site-heading h1 {
+    font-size: 3.0rem;
+    margin-bottom: 0px;
+}
+
+.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Navigation styles */
+nav {
+    padding: 15px;
+   
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: circle;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    top:right
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+
+/* Main content styles */
+main {
+    padding: 50px 20px;
+    text-align: center;
+    position: relative; /* Add position relative */
+}
+
+/* Embedded YouTube video */
+iframe {
+    max-width: 100%;
+}
+
+/* List styles */
+ol, ul {
+    margin-bottom: 30px;
+}
+
+/* Common styles */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Font color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Top section */
+.top {
+    font-weight: bold; /* Bold font */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+
+/* Middle section */
+.middle {
+    margin-top: 20px; /* Add top margin */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.middle h2 {
+    font-weight: bold; /* Bold font for headers */
+}
+
+.middle ol {
+    list-style-type: decimal; /* Use numbers for ordered lists */
+}
+
+.middle ul {
+    list-style-type: disc; /* Use bullet points for unordered lists */
+}
+
+/* Bottom section */
+.bottom {
+    margin-top: 20px; /* Add top margin */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+
